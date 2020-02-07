@@ -4,8 +4,7 @@ body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
   background-color: #6b133f;
-  font-family: 'Josefin Sans', sans-serif;
-
+  font-family: "Josefin Sans", sans-serif;
 }
 
 #startingScreenTitle {
@@ -21,7 +20,7 @@ body {
 .globe {
   display: block;
   margin: auto;
-  width: 300px;
+  width: 280px;
 }
 
 .appendee {
@@ -29,7 +28,7 @@ body {
   text-align: center;
 }
 
- #here {
+#here {
   color: beige;
 }
 
@@ -38,16 +37,15 @@ p {
   font-size: 25px;
 }
 .guy {
-  width: 220px;
+  width: 200px;
   right: 50%;
   left: 43%;
   position: absolute;
   top: 100px;
-  
 }
 
 h1 {
-font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   margin-top: 0px;
   margin-bottom: 10px;
 }
