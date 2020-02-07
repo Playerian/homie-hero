@@ -2,22 +2,32 @@
 <html lang="en">
   <head>
     <title>Hello!</title>
-    
+
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <!-- import the webpage's stylesheet -->
+    <!-- Styles -->
     <link rel="stylesheet" href="/map.css" />
-    
-    
-    <!-- jquery -->
+
+    <!-- JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    
-    <!-- import the webpage's javascript file -->
     <script src="/map.js" defer></script>
 
-
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font-family: 'Righteous', cursive; -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font-family: 'Nanum Myeongjo', serif; -->
   </head>
 
   <body>
@@ -29,37 +39,37 @@
         class="hidden map"
         id="map"
       />
-      <img id="person" class="hidden person" src="https://cdn.glitch.com/b978d84d-2768-448b-905f-2ef9e079b900%2Fperson.png?v=1581109712217">
+      <img
+        id="person"
+        class="hidden person"
+        src="https://cdn.glitch.com/b978d84d-2768-448b-905f-2ef9e079b900%2Fperson.png?v=1581109712217"
+      />
     </div>
     <div class="main">
       <div class="left">
-
-        
-        <div class="leftItem pl-4 section">
+        <div class="leftItem paddingLeft section">
           <h1>City Info</h1>
-          <p class="currentCity"> Current City </p>
-          <p class="homeless"> Homeless: 0 </p>
-          <p class="happiness"> Happiness: 0 </p>
+          <p class="currentCity">Current City</p>
+          <p class="homeless">Homeless: 0</p>
+          <p class="happiness">Happiness: 0</p>
+          <p class="historicalInformation">Historical Information: </p>
+
         </div>
-        
-        <div class="leftItem pl-4 section">
+
+        <div class="leftItem paddingLeft section">
           <h1>Statistics</h1>
-          <p class="day"> Day: 0 </p>
-          <p class="hour"> Hour: 0 </p>
+          <p class="day">Day: 0</p>
+          <p class="hour">Hour: 0</p>
         </div>
-        
-  
       </div>
       <div class="right">
         <div class="canvasDiv">
-          
           <canvas
             id="canvas"
             class="canvas"
             width="408px"
             height="512px"
           ></canvas>
-      
         </div>
         <div class="problemDiv hidden">
           <div class="problemName">
@@ -74,7 +84,8 @@
         </div>
       </div>
     </div>
-
+        <img class="globe" src="https://cdn.glitch.com/b978d84d-2768-448b-905f-2ef9e079b900%2FGlobeImage.png?v=1581102157870">
+        <img class="character" src="https://cdn.glitch.com/b978d84d-2768-448b-905f-2ef9e079b900%2Fperson.png?v=1581109712217">
     <marquee></marquee>
   </body>
 </html>
