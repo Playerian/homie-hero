@@ -1,0 +1,53 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #6b133f;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#startingScreenTitle {
+  text-align: center;
+  font-size: 70px;
+  color: white;
+}
+
+#ssinput {
+  text-align: center;
+}
+
+.globe {
+  display: block;
+  margin: auto;
+  width: 300px;
+}
+
+.appendee {
+  color: white;
+  text-align: center;
+}
+
+ #here {
+  color: beige;
+}
+
+p {
+  color: beige;
+  font-size: 25px;
+}
+.guy {
+  width: 220px;
+  right: 50%;
+  left: 43%;
+  position: absolute;
+  top: 100px;
+  
+}
+
+h1 {
+font-family: 'Acme', sans-serif;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}

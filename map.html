@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/map.css" />
+    
+    
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/map.js" defer></script>
+
+
+  </head>
+
+  <body>
+    <div class="hidden">
+      <img
+        width="500px"
+        height="500px"
+        src="https://cdn.glitch.com/b978d84d-2768-448b-905f-2ef9e079b900%2FBayareaUSGS.jpg?v=1581104124610"
+        class="hidden map"
+        id="map"
+      />
+      <img id="person" class="hidden person" src="https://cdn.glitch.com/b978d84d-2768-448b-905f-2ef9e079b900%2Fperson.png?v=1581109712217">
+    </div>
+    <div class="main">
+      <div class="left">
+
+        
+        <div class="leftItem pl-4 section">
+          <h1>City Info</h1>
+          <p class="currentCity"> Current City </p>
+          <p class="homeless"> Homeless: 0 </p>
+          <p class="happiness"> Happiness: 0 </p>
+        </div>
+        
+        <div class="leftItem pl-4 section">
+          <h1>Statistics</h1>
+          <p class="day"> Day: 0 </p>
+          <p class="hour"> Hour: 0 </p>
+        </div>
+        
+  
+      </div>
+      <div class="right">
+        <div class="canvasDiv">
+          
+          <canvas
+            id="canvas"
+            class="canvas"
+            width="408px"
+            height="512px"
+          ></canvas>
+      
+        </div>
+        <div class="problemDiv hidden">
+          <div class="problemName">
+            Just a problem?
+          </div>
+          <div id="option1" class="problemOptions">
+            Yes
+          </div>
+          <div id="option2" class="problemOptions">
+            No
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <marquee></marquee>
+  </body>
+</html>
